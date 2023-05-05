@@ -1,28 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <div style="width: 1440px; height: 1024px; background-color: white; border-radius: 100px; display: inline-flex; flex-direction: column; align-items: flex-start; justify-content: flex-end;">
-        <div style="width: 100%; height: 152px; padding-top: 39px; padding-bottom: 40px; padding-left: 458px; padding-right: 459px; background-color: rgba(88.19, 174.46, 80.69, 1); display: inline-flex; flex-direction: row; align-items: center; justify-content: center;">
-            <p style="font-size: 60px; line-height: 100%; color: white;">AGE CALCULATOR</p>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet" />
+        <link href="css/main.css" rel="stylesheet" />
+        <title>Age Calculator</title>
+    </head>
+    <body>
+        <div class="v1_2">
+            <div class="v1_3">
+
+            </div>
+            <div class="v1_4">
+
+            </div>
+            <span class="v1_5">AGE CALCULATOR</span>
+            <span class="v1_7">CURRENT YEAR</span>
+            <span class="v1_9">YEAR OF BIRTH </span>
+            <span class="v2_27">AGE</span>
+            <div class="v1_8" id="currentyear">
+
+            </div>
+            <div class="v2_28" id="myage">
+
+            </div>
+            <span class="v1_6">Designed by Bamidele Emmanuel</span>
+            <div class="v1_10" id="yearofbirth">
+
+            </div>
         </div>
-        <div style="height: 76px;"/>
-        <p style="font-size: 40px; line-height: 100%; color: rgba(31.02, 28.31, 28.31, 1);">CURRENT YEAR</p>
-        <div style="height: 76px;"/>
-        <div style="width: 564px; height: 130px; background-color: rgba(88, 174, 81, 1);"/>
-        <div style="height: 76px;"/>
-        <p style="font-size: 40px; line-height: 100%; color: rgba(31.02, 28.31, 28.31, 1);">YEAR OF BIRTH </p>
-        <div style="height: 76px;"/>
-        <div style="width: 564px; height: 130px; background-color: rgba(88, 174, 81, 1);"/>
-        <div style="height: 76px;"/>
-        <div style="width: 100%; height: 152px; padding-left: 559px; padding-right: 559px; padding-top: 58px; padding-bottom: 58px; background-color: rgba(88, 174, 81, 1); display: inline-flex; flex-direction: row; align-items: center; justify-content: center;">
-            <p style="font-size: 30px; line-height: 100%; color: white;">Designed by Emmanuel</p>
-        </div>
-    </div>
-</body>
+        <script>
+            const year = prompt("Input your current year");
+            document.getElementById("currentyear").innerHTML = year;
+
+            const my_year = prompt("Input my year of birth");
+            document.getElementById("yearofbirth").innerHTML = my_year;
+
+            let age;
+            age = year - my_year;
+            document.getElementById("myage").innerHTML = age;
+        </script>
+    </body>
 </html>
