@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet" />
+        <link href="./css/main.css" rel="stylesheet" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="v1_2">
+            <div class="v1_3">
+
+            </div>
+            <div class="v1_4">
+
+            </div>
+            <span class="v1_5">AGE CALCULATOR</span>
+            <span class="v1_7">CURRENT YEAR</span>
+            <span class="v1_9">YEAR OF BIRTH </span>
+            <span class="v2_27">AGE</span>
+            <div class="v1_8" id="currentyear">
+
+            </div>
+            <div class="v2_28" id="myage">
+
+            </div>
+            <span class="v1_6">Designed by Bamidele Emmanuel</span>
+            <div class="v1_10" id="yearofbirth">
+
+            </div>
+        </div>
+        <script>
+            const year = prompt("Input your current year");
+            document.getElementById("currentyear").innerHTML = year;
+
+            const my_year = prompt("Input my year of birth");
+            document.getElementById("yearofbirth").innerHTML = my_year;
+
+            let age;
+            age = year - my_year;
+            document.getElementById("myage").innerHTML = age;
+        </script>
+    </body>
+</html>

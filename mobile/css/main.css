@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.v2_29 {
+  width: 393px;
+  height: 852px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  overflow: hidden;
+}
+.v2_31 {
+  width: 394px;
+  height: 96px;
+  background: rgba(88,174,80,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v2_39 {
+  width: 394px;
+  height: 96px;
+  background: rgba(88,174,80,1);
+  opacity: 1;
+  position: absolute;
+  top: 770px;
+  left: 0px;
+  overflow: hidden;
+}
+.v2_32 {
+  width: 311px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 36px;
+  left: 45px;
+  font-family: Inter;
+  font-weight: Regular;
+  font-size: 35px;
+  opacity: 1;
+  text-align: left;
+}
+.v2_40 {
+  width: 356px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 790px;
+  left: 38px;
+  font-family: Inter;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+.v2_33 {
+  width: 245px;
+  color: rgba(31,28,28,1);
+  position: absolute;
+  top: 188px;
+  left: 74px;
+  font-family: Inter;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: left;
+}
+.v2_35 {
+  width: 245px;
+  color: rgba(31,28,28,1);
+  position: absolute;
+  top: 359px;
+  left: 93px;
+  font-family: Inter;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: left;
+}
+.v2_37 {
+  width: 245px;
+  color: rgba(31,28,28,1);
+  position: absolute;
+  top: 485px;
+  left: 166px;
+  font-family: Inter;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: left;
+}
+.v2_34 {
+  width: 318px;
+  height: 73px;
+  background: rgba(88,174,81,1);
+  opacity: 1;
+  position: absolute;
+  top: 233px;
+  left: 38px;
+  overflow: hidden;
+}
+.v2_36 {
+  width: 318px;
+  height: 73px;
+  background: rgba(88,174,81,1);
+  opacity: 1;
+  position: absolute;
+  top: 404px;
+  left: 38px;
+  overflow: hidden;
+}
+.v2_38 {
+  width: 318px;
+  height: 166px;
+  background: rgba(88,174,81,1);
+  opacity: 1;
+  position: absolute;
+  top: 538px;
+  left: 38px;
+  overflow: hidden;
+}
